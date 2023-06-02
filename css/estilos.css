@@ -1,0 +1,294 @@
+html{
+    margin: 50px;
+}
+h1 {
+background: #d6abb1;
+}
+div{
+    text-align: center;
+    width: 300px;
+}
+ol{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 0px;
+}
+li{
+    text-align: right;
+}
+.first-day{
+    grid-column-start: 5;
+}
+.day-name{
+    background: #eee;
+    font-weight: bold;
+    text-align: center;
+}
+
+table th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 5px;
+    border-collapse: collapse;
+}
+th{
+    text-align:center;
+}
+
+h2 {
+background: #c4ffeb;
+}
+div{
+    text-align: center;
+    width: 300px;
+}
+ol{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 0px;
+}
+li{
+    text-align: right;
+}
+.first-day{
+    grid-column-start: 5;
+}
+.day-name{
+    background: #eee;
+    font-weight: bold;
+    text-align: center;
+}
+table th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+padding: 5px;
+    border-collapse: collapse;
+}
+th{
+    text-align:center;
+}
+
+h1 {
+background: #d6abb1;
+}
+div{
+    text-align: center;
+    width: 300px;
+}
+ol{
+    list-style: none;   
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 0px;
+}
+li{
+    text-align: right;
+}
+.first-day{
+    grid-column-start: 5;
+}
+.day-name{
+    background: #eee;
+    font-weight: bold;
+    text-align: center;
+}
+table th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 5px;
+    border-collapse: collapse;
+}
+th{
+text-align:center;
+}
+
+h2{
+background: #c4ffeb;
+}
+div{
+    text-align: center;
+    width: 300px;
+}
+ol{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 0px;
+}
+li{
+    text-align: right;
+}
+.first-day{
+    grid-column-start: 5;
+}
+.day-name{
+    background: #eee;
+    font-weight: bold;
+    text-align: center;
+}
+table th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 5px;
+    border-collapse: collapse;
+}
+th{
+    text-align:center;
+}
+
+h1{
+    background: #d6abb1;
+}
+div{
+    text-align: center;
+    width: 300px;
+}
+ol{
+list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 0px;
+}
+li{
+    text-align: right;
+}
+.first-day{
+    grid-column-start: 5;
+}
+.day-name{
+    background: #eee;
+    font-weight: bold;
+    text-align: center;
+}
+table th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 5px;
+    border-collapse: collapse;
+}
+th{
+    text-align:center;
+}
+h2 {
+background: #c4ffeb;
+}
+div{
+    text-align: center;
+    width: 300px;
+}
+ol{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 0px;
+}
+li{
+    text-align: right;
+}
+.first-day{
+    grid-column-start: 5;
+}
+.day-name{
+    background: #eee;
+    font-weight: bold;
+    text-align: center;
+}
+table th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+padding: 5px;
+    border-collapse: collapse;
+}
+th{
+    text-align:center;
+}
+
+h1 {
+background: #d6abb1;
+}
+div{
+    text-align: center;
+    width: 300px;
+}
+ol{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 0px;
+}
+li{
+    text-align: right;
+}
+.first-day{
+    grid-column-start: 5;
+}
+.day-name{
+    background: #eee;
+    font-weight: bold;
+text-align: center;
+}
+table th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 5px;
+    border-collapse: collapse;
+}
+th{
+    text-align:center;
+}
+
+h2 {
+background: #c4ffeb;
+
+}
+div{
+    text-align: center;
+    width: 300px;
+
+}
+ol{
+    list-style: none;
+    display: grid;
+grid-template-columns: repeat(7,1fr);
+    padding: 0px;
+}
+li{
+    text-align: right;
+}
+.first-day{
+    grid-column-start: 5;
+}
+.day-name{
+    background: #eee;
+    font-weight: bold;
+    text-align: center;
+}
+
+table th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+th,td{
+    padding: 5px;
+border-collapse: collapse;
+}
+th{
+    text-align:center;
+}
