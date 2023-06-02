@@ -1,294 +1,69 @@
-html{
-    margin: 50px;
-}
-h1 {
-background: #d6abb1;
-}
-div{
-    text-align: center;
-    width: 300px;
-}
-ol{
-    list-style: none;
+/* Calendar personalization */
+
+#calendar--main-container{
+    padding: 20px;
     display: grid;
-    grid-template-columns: repeat(7,1fr);
-    padding: 0px;
-}
-li{
-    text-align: right;
-}
-.first-day{
-    grid-column-start: 5;
-}
-.day-name{
-    background: #eee;
-    font-weight: bold;
-    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
 }
 
-table th,td{
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th,td{
+table caption{
+    font-weight: bold;
     padding: 5px;
-    border-collapse: collapse;
-}
-th{
-    text-align:center;
 }
 
-h2 {
-background: #c4ffeb;
-}
-div{
-    text-align: center;
-    width: 300px;
-}
-ol{
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(7,1fr);
-    padding: 0px;
-}
-li{
-    text-align: right;
-}
-.first-day{
-    grid-column-start: 5;
-}
-.day-name{
-    background: #eee;
-    font-weight: bold;
-    text-align: center;
-}
-table th,td{
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th,td{
-padding: 5px;
-    border-collapse: collapse;
-}
-th{
-    text-align:center;
+table:nth-child(1) caption{
+    background-color: #d6abb1;
+    color: white;
 }
 
-h1 {
-background: #d6abb1;
+table:nth-child(2) caption{
+    background-color: darkred;
+    color: white;
 }
-div{
-    text-align: center;
-    width: 300px;
+
+table:nth-child(3) caption{
+    background-color: greenyellow;
+    color: black;
 }
-ol{
-    list-style: none;   
-    display: grid;
-    grid-template-columns: repeat(7,1fr);
-    padding: 0px;
+
+table:nth-child(4) caption{
+    background-color: #555;
+    color: white;
 }
-li{
-    text-align: right;
+
+table:nth-child(5) caption{
+    background-color: purple;
+    color: white;
 }
-.first-day{
-    grid-column-start: 5;
+
+table:nth-child(6) caption{
+    background-color: orangered;
+    color: white;
 }
-.day-name{
-    background: #eee;
-    font-weight: bold;
-    text-align: center;
-}
-table th,td{
+
+table{
     border: 1px solid black;
-    border-collapse: collapse;
 }
-th,td{
+
+table thead{
+    text-align: center;
     padding: 5px;
-    border-collapse: collapse;
-}
-th{
-text-align:center;
+    border: 2px solid black;
 }
 
-h2{
-background: #c4ffeb;
-}
-div{
+table td{
     text-align: center;
-    width: 300px;
-}
-ol{
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(7,1fr);
-    padding: 0px;
-}
-li{
-    text-align: right;
-}
-.first-day{
-    grid-column-start: 5;
-}
-.day-name{
-    background: #eee;
-    font-weight: bold;
-    text-align: center;
-}
-table th,td{
     border: 1px solid black;
-    border-collapse: collapse;
-}
-th,td{
-    padding: 5px;
-    border-collapse: collapse;
-}
-th{
-    text-align:center;
 }
 
-h1{
-    background: #d6abb1;
-}
-div{
-    text-align: center;
-    width: 300px;
-}
-ol{
-list-style: none;
-    display: grid;
-    grid-template-columns: repeat(7,1fr);
-    padding: 0px;
-}
-li{
-    text-align: right;
-}
 .first-day{
-    grid-column-start: 5;
+    background-color: rgba(14, 240, 14, 0.5);
 }
-.day-name{
-    background: #eee;
+
+span{
+    font-size: 5px;
+    display: block;
     font-weight: bold;
-    text-align: center;
-}
-table th,td{
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th,td{
-    padding: 5px;
-    border-collapse: collapse;
-}
-th{
-    text-align:center;
-}
-h2 {
-background: #c4ffeb;
-}
-div{
-    text-align: center;
-    width: 300px;
-}
-ol{
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(7,1fr);
-    padding: 0px;
-}
-li{
-    text-align: right;
-}
-.first-day{
-    grid-column-start: 5;
-}
-.day-name{
-    background: #eee;
-    font-weight: bold;
-    text-align: center;
-}
-table th,td{
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th,td{
-padding: 5px;
-    border-collapse: collapse;
-}
-th{
-    text-align:center;
-}
-
-h1 {
-background: #d6abb1;
-}
-div{
-    text-align: center;
-    width: 300px;
-}
-ol{
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(7,1fr);
-    padding: 0px;
-}
-li{
-    text-align: right;
-}
-.first-day{
-    grid-column-start: 5;
-}
-.day-name{
-    background: #eee;
-    font-weight: bold;
-text-align: center;
-}
-table th,td{
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th,td{
-    padding: 5px;
-    border-collapse: collapse;
-}
-th{
-    text-align:center;
-}
-
-h2 {
-background: #c4ffeb;
-
-}
-div{
-    text-align: center;
-    width: 300px;
-
-}
-ol{
-    list-style: none;
-    display: grid;
-grid-template-columns: repeat(7,1fr);
-    padding: 0px;
-}
-li{
-    text-align: right;
-}
-.first-day{
-    grid-column-start: 5;
-}
-.day-name{
-    background: #eee;
-    font-weight: bold;
-    text-align: center;
-}
-
-table th,td{
-    border: 1px solid black;
-    border-collapse: collapse;
-
-}
-th,td{
-    padding: 5px;
-border-collapse: collapse;
-}
-th{
-    text-align:center;
+    color: #333;
 }
